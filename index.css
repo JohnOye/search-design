@@ -1,0 +1,54 @@
+body {
+	
+}
+
+h1 {
+	text-shadow: 2px 2px 25px grey;
+	cursor: pointer;
+}
+.ddbf {
+border-color: transparent;	
+width: inherit;
+	height: 30px;
+}
+
+#search {
+	border-radius: 30px;
+	width: 487px;
+	height: 35px;
+	border: 3px solid black;
+	background-color: rgba(233, 233,  255, 0);
+	animation-name: bc;
+	font-size: 15px;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	position:relative;
+	display:inflex;
+	padding: 8px;
+	padding-left: 15px;
+	padding-right: 30px;
+	
+}
+@keyframes bc {
+	10% {border-color: red;}
+	30% {border-color: blue;}
+	40% {border-color: pink;}
+	60% {border-color: cyan;}
+}
+
+#sub {
+	height: 50px;
+	width: 150px;
+	background-color: green;
+	border-radius: 50px;
+	border: 2px solid green;
+	color: white;
+	font-style: bold;
+	font-size: 15px;
+	cursor: pointer;
+	
+}
+#sub:hover {
+	background-color: blue;
+	border-color: blue;
+}
